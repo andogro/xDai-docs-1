@@ -19,3 +19,5 @@ fields:
     required: false
   label: Parent
   description: Name of parent file
+pages:
+- nav-child.md
