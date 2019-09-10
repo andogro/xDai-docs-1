@@ -1,4 +1,28 @@
 ---
 label: parent
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  description: default is standard
+  default: default
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: has_children
+  type: text
+  config:
+    required: true
+  label: Has Children
+  hidden: true
+  default: 'true'
+- name: nav_order
+  type: text
+  config:
+    required: false
+  label: Nav Order
