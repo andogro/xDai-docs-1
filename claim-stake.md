@@ -4,7 +4,7 @@ title: Claim Stake
 permalink: "/claim-stake/"
 
 ---
-Stake ordered for withdrawal is available to claim once the staking epoch in which the claim was ordered is complete. See the important note below related to actions that can cause a claim delay.
+Stake ordered for withdrawal is available to claim once the staking epoch in which the claim was ordered is complete. See the **important note below** related to actions that can cause a claim delay.
 
 1. Check that your web3 wallet is connected with the correct address and you have enough xDai to process the transaction.
 2. Click the Claim icon next to the pool you would like to claim your stake from. The icon will only appear once a claim is available.  
@@ -12,7 +12,7 @@ Stake ordered for withdrawal is available to claim once the staking epoch in whi
 3. The modal will show the amount available to claim. Click the **Claim the Amount** button. ![](/uploads/97b4c3050bce7fcdb6824b2866e5b6bf800f7422_2_1380x664.png)
 4. Confirm the transaction with your web3 wallet. The claimed amount will be added to your address balance.
 
-Important: If you place a withdrawal order in a staking epoch **before claiming your previously ordered amount**, your initial claim will be carried over and added to the new order, so that **no amount will be available to claim from that pool until the beginning of the next staking epoch**.
+**Important:** If you place a withdrawal order in a staking epoch **before claiming your previously ordered amount**, your initial claim will be carried over and added to the new order, so that **no amount will be available to claim from that pool until the beginning of the next staking epoch**.
 
 **For example:**
 
