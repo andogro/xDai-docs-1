@@ -26,3 +26,5 @@ fields:
   config:
     required: false
   label: Nav Order
+pages:
+- nav-test.md
