@@ -1,4 +1,21 @@
 ---
 label: Child
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  default: default
+- name: parent
+  type: text
+  config:
+    required: false
+  label: Parent
+  description: Name of parent file
