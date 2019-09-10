@@ -12,5 +12,4 @@ fields:
   name: permalink
   label: permalink
 pages:
-- nav-title.md
 - claim-stake.md
