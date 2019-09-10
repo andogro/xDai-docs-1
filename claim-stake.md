@@ -2,7 +2,6 @@
 layout: page
 title: Claim Stake
 permalink: "/claim-stake/"
-published: false
 
 ---
 Stake ordered for withdrawal is available to claim once the staking epoch in which the claim was ordered is complete. See the important note below related to actions that can cause a claim delay.
