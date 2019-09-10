@@ -11,6 +11,36 @@ fields:
 - type: text
   name: permalink
   label: permalink
+- name: nav_order
+  type: text
+  config:
+    required: false
+  label: nav_order
+  description: Add numeric value if wanted
+- name: nav_exclude
+  type: text
+  config:
+    required: false
+  label: nav_exclude
+  description: Add "true" if want to exclude
+- name: has_children
+  type: text
+  config:
+    required: false
+  label: has_children
+  description: add "true" if parent page
+- name: parent
+  type: text
+  config:
+    required: false
+  label: parent
+  description: add Page parent title and set nav order
+- name: grand_parent
+  type: text
+  config:
+    required: false
+  label: grand_parent
+  description: Add if 2 levels of navigation needed
 pages:
-- Docs/menu-test.md
 - claim-stake.md
+- Docs/menu-test.md
