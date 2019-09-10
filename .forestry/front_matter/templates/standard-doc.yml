@@ -42,5 +42,5 @@ fields:
   label: grand_parent
   description: Add if 2 levels of navigation needed
 pages:
-- claim-stake.md
 - Docs/menu-test.md
+- claim-stake.md
