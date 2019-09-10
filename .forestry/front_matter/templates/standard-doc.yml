@@ -12,4 +12,5 @@ fields:
   name: permalink
   label: permalink
 pages:
+- Docs/a-page-in-docs.md
 - claim-stake.md
